@@ -1,25 +1,44 @@
 *{
   padding:0;
   margin:0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
-.page1{
+#page1{
   background-size: cover;
   background-image:url("https://bit.ly/2E8ehpL");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  width: 100%;
-  height: 576px;
+  width: auto;
+  height:650px;;
 }
-.page2{
+#page2{
   background-size: cover;
   background-image:url("https://bit.ly/2GLOZQO");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  width: 100%;
-  height: 576px;
+  width: auto;
+  height:710px;
+}
+#page3{
+  background-size: cover;
+  background-image:url("https://bit.ly/2Tc6cbW");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: auto;
+  height: 710px;
+}
+#page4{
+  background-size: cover;
+  background-image:url("https://bit.ly/2U4bHqh");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: auto;
+  height: 710px;
 }
 .logo{
   font-family: 'Muli', sans-serif;
@@ -42,7 +61,7 @@ border-bottom: 3px solid transparent;
 .navigasi li{
   color: orange;
 }
-.page1 img{
+#page1 img{
   position: relative;
   top: 0em;
   left: 11em;
@@ -85,10 +104,75 @@ border-bottom: 3px solid transparent;
   margin-top: 50px;
 }
 
-.page2 img{
+#page2 img{
   position: relative;
   top: 7em;
   left: 0em;
   height: 450px;
   width: 450px;
+}
+
+#page3 .container{
+  /* border: 1px solid blue; */
+  padding: 5  0px;
+}
+
+#page3 .box{
+  height: 380px;
+  width: 300px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 4px 10px 0px #595972;
+  text-align: center;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.box p{
+  font-size: 25px;
+  color: #6c63ff;
+}
+.box button{
+  border-radius: 20px;
+}
+
+.box{
+  margin: 20px;
+  background: white;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+#page3 .box img{
+  height: 200px;
+  width: 200px;
+}
+
+#page4 img{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin: 0 5px;
+}
+#page4 .container{
+padding-top: 20em;
+}
+#page4 .text3{
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+.sosmed{
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 20px;
+}
+#page4 h5{
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  border-top: 2px solid #bfbdfe;
 }
